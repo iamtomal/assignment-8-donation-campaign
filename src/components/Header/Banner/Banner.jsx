@@ -1,8 +1,8 @@
 
 const Banner = () => {
     return (
-        <div>
-            
+        <div className=" bg-orange-600">
+            <h1>Hi</h1>
         </div>
     );
 };
