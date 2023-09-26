@@ -36,6 +36,39 @@
       "id": 4,
       "img": "https://i.ibb.co/fSD15x6/Food.png",
       "title": "Better Food for Everyone",
+      "description": "Provide safe and affordable housing for homeless and low-income individuals.",
+      "bg_color": "rgba(248, 113, 71, 0.15)",
+      "font_color": "#F87147",
+      "font_bg": "rgba(255, 68, 74, 0.20)",
+      "overlay": "rgba(255, 68, 74, 0.20)",
+      "category": "Food"
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co/w7HJwvZ/Health.png",
+      "title": "Clean water for children",
+      "description": "Support disaster-affected communities with immediate relief and recovery efforts.",
+      "bg_color": "rgba(0, 82, 255, 0.15)",
+      "font_color": "#0052FF",
+      "font_bg": "rgba(0, 82, 255, 0.20)",
+      "overlay": "#0052FF26",
+      "category": "Health"
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co/T8fQ79d/Education.png",
+      "title": "Good education",
+      "description": "Promote art and culture, preserving traditions and fostering creativity.",
+      "bg_color": "#FF444A26",
+      "font_color": "#FF444A",
+      "font_bg": "rgba(255, 68, 74, 0.20)",
+      "overlay": "rgba(255, 68, 74, 0.20)",
+      "category": "Education"
+    },
+    {
+      "id": 7,
+      "img": "https://i.ibb.co/fSD15x6/Food.png",
+      "title": "Better Food for Everyone",
       "description": "Improve healthcare access for underserved communities and save lives.",
       "bg_color": "rgba(248, 113, 71, 0.15)",
       "font_color": "#F87147",
@@ -44,18 +77,18 @@
       "category": "Food"
     },
     {
-      "id": 5,
+      "id": 8,
       "img": "https://i.ibb.co/w7HJwvZ/Health.png",
       "title": "Clean water for children",
       "description": "Protect our planet by supporting conservation and eco-friendly initiatives.",
       "bg_color": "rgba(0, 82, 255, 0.15)",
       "font_color": "#0052FF",
-      "font_bg": "#0052FF",
+      "font_bg": "rgba(0, 82, 255, 0.20)",
       "overlay": "#0052FF26",
       "category": "Health"
     },
     {
-      "id": 6,
+      "id": 9,
       "img": "https://i.ibb.co/T8fQ79d/Education.png",
       "title": "Good education",
       "description": "Promote gender equality and empower women in various aspects of life.",
@@ -66,7 +99,7 @@
       "category": "Education"
     },
     {
-      "id": 7,
+      "id": 10,
       "img": "https://i.ibb.co/c6W0CTz/Clothing.png",
       "title": "Used Clothing Drive",
       "description": "Support organizations dedicated to the welfare and protection of animals.",
@@ -75,39 +108,6 @@
       "font_bg": "rgba(121, 194, 63, 0.20)",
       "overlay": "rgba(121, 194, 63, 0.20)",
       "category": "Clothing"
-    },
-    {
-      "id": 8,
-      "img": "https://i.ibb.co/fSD15x6/Food.png",
-      "title": "Better Food for Everyone",
-      "description": "Provide safe and affordable housing for homeless and low-income individuals.",
-      "bg_color": "rgba(248, 113, 71, 0.15)",
-      "font_color": "#F87147",
-      "font_bg": "rgba(255, 68, 74, 0.20)",
-      "overlay": "rgba(255, 68, 74, 0.20)",
-      "category": "Food"
-    },
-    {
-      "id": 9,
-      "img": "https://i.ibb.co/w7HJwvZ/Health.png",
-      "title": "Clean water for children",
-      "description": "Support disaster-affected communities with immediate relief and recovery efforts.",
-      "bg_color": "rgba(0, 82, 255, 0.15)",
-      "font_color": "#0052FF",
-      "font_bg": "#0052FF",
-      "overlay": "#0052FF26",
-      "category": "Health"
-    },
-    {
-      "id": 10,
-      "img": "https://i.ibb.co/T8fQ79d/Education.png",
-      "title": "Good education",
-      "description": "Promote art and culture, preserving traditions and fostering creativity.",
-      "bg_color": "#FF444A26",
-      "font_color": "#FF444A",
-      "font_bg": "rgba(255, 68, 74, 0.20)",
-      "overlay": "rgba(255, 68, 74, 0.20)",
-      "category": "Education"
     },
     {
       "id": 11,
