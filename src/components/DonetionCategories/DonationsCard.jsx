@@ -1,8 +1,11 @@
+import { Link } from "react-router-dom";
+
 const DonationsCard = ({donation}) => {
 const {id, img, title, description, bg_color, font_bg, font_color, category} = donation || {}
 
   return (
     <div>
+    <Link to={`/donation/${id}`}>
       <div style={{background:bg_color}} className="flex  flex-col rounded-lg">
         <div className="rounded-lg  ">
           <img
@@ -21,6 +24,7 @@ const {id, img, title, description, bg_color, font_bg, font_color, category} = d
           </p>
         </div>
       </div>
+    </Link>
     </div>
   );
 };
