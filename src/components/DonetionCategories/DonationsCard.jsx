@@ -5,7 +5,7 @@ const {id, img, title, description, bg_color, font_bg, font_color, category} = d
 
   return (
     <div>
-    <Link to={`/donation/${id}`}>
+    <Link to={`/donations/${id}`}>
       <div style={{background:bg_color}} className="flex  flex-col rounded-lg">
         <div className="rounded-lg  ">
           <img

@@ -8,6 +8,7 @@
       "font_color": "#0052FF",
       "font_bg": "rgba(0, 82, 255, 0.20)",
       "overlay": "#0052FF26",
+      "price": 290,
       "category": "Health"
     },
     {
@@ -19,6 +20,7 @@
       "font_color": "#FF444A",
       "font_bg": "rgba(255, 68, 74, 0.20)",
       "overlay": "rgba(255, 68, 74, 0.20)",
+      "price": 390,
       "category": "Education"
     },
     {
@@ -30,6 +32,7 @@
       "font_color": "#79C23F",
       "font_bg": "rgba(121, 194, 63, 0.20)",
       "overlay": "rgba(121, 194, 63, 0.20)",
+      "price": 490,
       "category": "Clothing"
     },
     {
@@ -41,6 +44,7 @@
       "font_color": "#F87147",
       "font_bg": "rgba(255, 68, 74, 0.20)",
       "overlay": "rgba(255, 68, 74, 0.20)",
+      "price": 590,
       "category": "Food"
     },
     {
@@ -52,6 +56,7 @@
       "font_color": "#FF444A",
       "font_bg": "rgba(255, 68, 74, 0.20)",
       "overlay": "rgba(255, 68, 74, 0.20)",
+      "price": 520,
       "category": "Education"
     },
     {
@@ -63,6 +68,7 @@
       "font_color": "#0052FF",
       "font_bg": "rgba(0, 82, 255, 0.20)",
       "overlay": "#0052FF26",
+      "price": 560,
       "category": "Health"
     },
     {
@@ -74,6 +80,7 @@
       "font_color": "#F87147",
       "font_bg": "rgba(248, 113, 71, 0.20)",
       "overlay": "rgba(248, 113, 71, 0.20)",
+      "price": 510,
       "category": "Food"
     },
     {
@@ -85,6 +92,7 @@
       "font_color": "#79C23F",
       "font_bg": "rgba(121, 194, 63, 0.20)",
       "overlay": "rgba(121, 194, 63, 0.20)",
+      "price": 790,
       "category": "Clothing"
     },
     {
@@ -96,6 +104,7 @@
       "font_color": "#0052FF",
       "font_bg": "rgba(0, 82, 255, 0.20)",
       "overlay": "#0052FF26",
+      "price": 790,
       "category": "Health"
     },
     {
@@ -107,6 +116,7 @@
       "font_color": "#FF444A",
       "font_bg": "rgba(255, 68, 74, 0.20)",
       "overlay": "rgba(255, 68, 74, 0.20)",
+      "price": 890,
       "category": "Education"
     },
     {
@@ -118,6 +128,7 @@
       "font_color": "#79C23F",
       "font_bg": "rgba(121, 194, 63, 0.20)",
       "overlay": "rgba(121, 194, 63, 0.20)",
+      "price": 990,
       "category": "Clothing"
     },
     {
@@ -129,6 +140,7 @@
       "font_color": "#F87147",
       "font_bg": "rgba(255, 68, 74, 0.20)",
       "overlay": "rgba(255, 68, 74, 0.20)",
+      "price": 190,
       "category": "Food"
     }
   ]
