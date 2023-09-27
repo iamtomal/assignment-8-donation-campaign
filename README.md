@@ -4,4 +4,4 @@
 
 - We can see all donation category in home page. 
 - We can search specific category in home page.
-- How many donations I have made can be seen in the navbar's donation section
+- How many donations I have made can be seen in the navbar's donation section.

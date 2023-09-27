@@ -1,70 +1,39 @@
-import React, { PureComponent } from 'react';
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
+import { Pie } from 'react-chartjs-2';
 
 const Statistics = () => {
+  // Sample data for the pie chart
+  const data = {
+    labels: ['Label 1', 'Label 2', 'Label 3'],
+    datasets: [
+      {
+        data: [30, 40, 30], // Percentages for each segment
+        backgroundColor: ['red', 'blue', 'green'], // Colors for each segment
+      },
+    ],
+  };
 
-    const data = [
-        { name: 'Group A', value: 400 },
-        { name: 'Group B', value: 300 },
-    
-      ];
+  // Chart options
+  const options = {
+    responsive: true,
+    maintainAspectRatio: false,
+    tooltips: {
+      callbacks: {
+        label: function (tooltipItem, data) {
+          const dataset = data.datasets[tooltipItem.datasetIndex];
+          const total = dataset.data.reduce((previousValue, currentValue) => previousValue + currentValue);
+          const currentValue = dataset.data[tooltipItem.index];
+          const percentage = ((currentValue / total) * 100).toFixed(2) + '%';
+          return percentage;
+        },
+      },
+    },
+  };
 
-      const COLORS = ['#0088FE', '#00C49F'];
-  
-  const RADIAN = Math.PI / 180;
-  const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
-    const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
-    const x = cx + radius * Math.cos(-midAngle * RADIAN);
-    const y = cy + radius * Math.sin(-midAngle * RADIAN);
-  
-
-    return (
-        <div>
-            
-            
-
-
-            
-        </div>
-    );
+  return (
+    <div className="pie-chart">
+      <Pie data={data} options={options} />
+    </div>
+  );
 };
 
 export default Statistics;
-
-
-
-  
-    return (
-      <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
-        {`${(percent * 100).toFixed(0)}%`}
-      </text>
-    );
-  };
-  
-  export default class Example extends PureComponent {
-    static demoUrl = 'https://codesandbox.io/s/pie-chart-with-customized-label-dlhhj';
-  
-    render() {
-      return (
-        <ResponsiveContainer width="100%" height="100%">
-          <PieChart width={400} height={400}>
-            <Pie
-              data={data}
-              cx="50%"
-              cy="50%"
-              labelLine={false}
-              label={renderCustomizedLabel}
-              outerRadius={80}
-              fill="#8884d8"
-              dataKey="value"
-            >
-              {data.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-              ))}
-            </Pie>
-          </PieChart>
-        </ResponsiveContainer>
-      );
-    }
-  }
-  
