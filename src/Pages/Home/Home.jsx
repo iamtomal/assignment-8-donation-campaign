@@ -1,5 +1,5 @@
 import { useLoaderData } from "react-router-dom";
-import DonetionCategories from "../../components/DonetionCategories/DonetionCategories";
+// import DonetionCategories from "../../components/DonetionCategories/DonetionCategories";
 import Banner from "../../components/Header/Banner/Banner";
 
 
@@ -8,9 +8,9 @@ const Home = () => {
 
     return (
         <div>
-            <Banner></Banner>
+            <Banner donations={donations}></Banner>
 
-            <DonetionCategories donations = {donations}></DonetionCategories>
+            {/* <DonetionCategories donations = {donations}></DonetionCategories> */}
         </div>
     );
 };
