@@ -9,7 +9,7 @@
       "font_bg": "rgba(0, 82, 255, 0.20)",
       "overlay": "#0052FF26",
       "price": 290,
-      "category": "Health"
+      "newCategory": "Health"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "font_bg": "rgba(255, 68, 74, 0.20)",
       "overlay": "rgba(255, 68, 74, 0.20)",
       "price": 390,
-      "category": "Education"
+      "newCategory": "Education"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "font_bg": "rgba(121, 194, 63, 0.20)",
       "overlay": "rgba(121, 194, 63, 0.20)",
       "price": 490,
-      "category": "Clothing"
+      "newCategory": "Clothing"
     },
     {
       "id": 4,
@@ -45,7 +45,7 @@
       "font_bg": "rgba(255, 68, 74, 0.20)",
       "overlay": "rgba(255, 68, 74, 0.20)",
       "price": 590,
-      "category": "Food"
+      "newCategory": "Food"
     },
     {
       "id": 5,
@@ -57,7 +57,7 @@
       "font_bg": "rgba(255, 68, 74, 0.20)",
       "overlay": "rgba(255, 68, 74, 0.20)",
       "price": 520,
-      "category": "Education"
+      "newCategory": "Education"
     },
     {
       "id": 6,
@@ -69,7 +69,7 @@
       "font_bg": "rgba(0, 82, 255, 0.20)",
       "overlay": "#0052FF26",
       "price": 560,
-      "category": "Health"
+      "newCategory": "Health"
     },
     {
       "id": 7,
@@ -81,7 +81,7 @@
       "font_bg": "rgba(248, 113, 71, 0.20)",
       "overlay": "rgba(248, 113, 71, 0.20)",
       "price": 510,
-      "category": "Food"
+      "newCategory": "Food"
     },
     {
       "id": 8,
@@ -93,7 +93,7 @@
       "font_bg": "rgba(121, 194, 63, 0.20)",
       "overlay": "rgba(121, 194, 63, 0.20)",
       "price": 790,
-      "category": "Clothing"
+      "newCategory": "Clothing"
     },
     {
       "id": 9,
@@ -105,7 +105,7 @@
       "font_bg": "rgba(0, 82, 255, 0.20)",
       "overlay": "#0052FF26",
       "price": 790,
-      "category": "Health"
+      "newCategory": "Health"
     },
     {
       "id": 10,
@@ -117,7 +117,7 @@
       "font_bg": "rgba(255, 68, 74, 0.20)",
       "overlay": "rgba(255, 68, 74, 0.20)",
       "price": 890,
-      "category": "Education"
+      "newCategory": "Education"
     },
     {
       "id": 11,
@@ -129,7 +129,7 @@
       "font_bg": "rgba(121, 194, 63, 0.20)",
       "overlay": "rgba(121, 194, 63, 0.20)",
       "price": 990,
-      "category": "Clothing"
+      "newCategory": "Clothing"
     },
     {
       "id": 12,
@@ -141,7 +141,7 @@
       "font_bg": "rgba(255, 68, 74, 0.20)",
       "overlay": "rgba(255, 68, 74, 0.20)",
       "price": 190,
-      "category": "Food"
+      "newCategory": "Food"
     }
   ]
   

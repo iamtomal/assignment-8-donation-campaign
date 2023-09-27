@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const DonationsCard = ({donation}) => {
-const {id, img, title, description, bg_color, font_bg, font_color, category} = donation || {}
+const {id, img, title, bg_color, font_bg, font_color, newCategory} = donation || {}
 
   return (
     <div>
@@ -16,7 +16,7 @@ const {id, img, title, description, bg_color, font_bg, font_color, category} = d
         <div className="p-6">
           <div className="mb-2 flex items-center justify-between">
             <p style={{background: font_bg, color: font_color}} className="px-3 rounded-md font-semibold text-sm">
-              {category}
+              {newCategory}
             </p>
           </div>
           <p style={{color: font_color}} className="font-bold text-xl">
